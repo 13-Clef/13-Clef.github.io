@@ -8,7 +8,7 @@ body {
     /* make everything tidy */
     font-family: "3270font";
     background-color: black;
-
+    max-width: 100vw;
 }
 
 header {
@@ -293,6 +293,12 @@ button:hover {
     text-align: center;
     font-size: 2vw;
     margin: 1vw;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    padding: 0 10px; /* Adds some padding to prevent touching the edges */
 }
 
 .qrcode img {
